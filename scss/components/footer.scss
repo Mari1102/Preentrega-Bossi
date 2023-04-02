@@ -1,0 +1,31 @@
+footer{display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-image:linear-gradient(rgba(52, 114, 73, 0.5), rgba(78, 194, 78, 0.9));
+    
+
+    ul{padding: 25px;
+
+    
+          li{
+             text-decoration: none;
+               list-style-type: none;
+             color: #006400;
+             font-family:'Caudex', serif; 
+             h2{
+                font-size: 15px;
+                font-weight: bolder;
+             }
+             img{
+                  height: 180px;
+                  width: 180px;
+                  }
+              }
+            }
+ iframe{
+    margin:25px;
+    
+ }
+ 
+ 
+}

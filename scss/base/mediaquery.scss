@@ -1,0 +1,361 @@
+
+@media screen and (max-width:1000px)
+{    
+      
+     .presentacion{ 
+        div{display: flex;
+            flex-direction: column;
+            height: 1000px;
+        } 
+    }  
+    .servicios{
+        
+    height: 2500px;}
+
+    div{
+        flex-direction: column;
+        
+    }
+
+  .semillero{
+    div{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .digitaria{
+        display: flex;
+       
+    width: 80%;
+    height: 600px;
+    
+    
+}
+
+
+
+.pastoLloron{width: 80%;
+    height: 600px;}
+    
+  
+ .bufellGrass{width: 80%;
+    height: 600px;}
+   
+
+  .panicumColoratum
+    {width:80%;
+    height: 600px;
+   
+
+}
+        
+}
+}
+}
+
+          
+        
+            
+
+@media screen and (max-width:600px) 
+{
+.presentacion
+{ 
+    div {
+        height: 680px;
+     
+        img{height: 250px;
+            width: 250px;  
+            margin-top: 25px;          
+            }
+        p{
+font-size: 25px;
+margin-top: 25px;
+    }
+    }
+}
+.servicios{
+    height: 1800px;
+    h2{
+        font-size: 30px;
+      
+        } 
+        div{
+                .semillas{ 
+                       height: 500px;
+                       width: 300px;
+                       
+
+                        h3{ font-size: 25px;
+                            
+                                                        
+                            }
+                        h4{font-size: 20px;
+                            
+                            }
+                            h5{
+                                
+                                font-size: 15px;
+                            }
+
+                        }
+                        img{ width: 200px;
+                            height: 100px;}
+                        a{
+                            font-size: 15px;
+                    }
+                
+            
+            .poolGanadero{
+                height: 500px;
+                width: 300px;
+                
+                      h3{  font-size: 25px;
+                     
+                     
+                     }
+                 h4{font-size: 20px;
+                    
+
+                 }
+                 img{ width: 200px;
+                     height: 100px;}
+                 a{
+                     font-size: 15px;
+                    }
+                }
+            
+        
+        .asesoramiento{
+          
+            height: 500px;
+            width: 300px;
+                    
+
+             h3{  font-size: 20px;
+                 
+                 }
+             h4{font-size: 20px;
+                 
+                 }
+
+             
+             img{ width: 200px;
+                 height: 100px;}
+             a{
+                 font-size: 15px;
+               }
+       
+  
+            }
+        }
+}
+}
+@media screen and( max-width:550px){
+    .semillero{
+    
+        h1{
+           
+            font-size: 35px; 
+           
+        
+        }
+        h2{
+            font-size: 30px;
+            
+        }
+        div{ 
+            .digitaria{
+               
+           
+                   
+          
+            
+            
+            p{
+                padding: 10px;
+               
+        
+            }
+            
+                a{padding: 10px;
+               
+            }
+        }
+    }
+}
+.pastoLloron
+    {p{
+        padding:15px
+    }
+    a{
+        padding:15px
+    }
+}
+}
+
+
+@media screen and (max-width:520px){
+
+    .hero{ 
+      
+       
+        h1{             
+            font-size: 20px;
+           
+        
+            
+      }
+      div{
+      
+      
+        h2{
+            
+            font-size: 15px;
+          
+            
+        }
+        a{ 
+            font-size: 15px;
+           
+        }
+       }
+    }
+    .presentacion
+    { 
+        div {
+            
+         
+            img{height:200px;
+                width:200px;  
+                         
+                }
+    
+        }
+    } 
+    .servicios{
+       
+        h2{
+            font-size: 25px;
+          
+            } 
+      
+}
+footer{display: flex;
+    flex-direction: column;
+     
+  
+ 
+}
+}
+@media screen and (max-width:500px){
+    .semillero{
+    
+        div{ 
+            .digitaria{
+                
+            height: 1000px;
+            }
+        
+        .pastoLloron{
+            height: 1000px;
+        }
+        .bufellGrass{
+            height: 1000px;
+        }
+        .panicumColoratum{
+            height: 1000px;
+        }
+
+
+
+
+}
+}
+}
+@media screen and (max-width:460px){
+.presentacion{
+    
+    margin-top: 50px;
+}
+
+}
+
+@media screen and (max-width:400px){
+    .presentacion{
+        
+       padding:25px ;
+    }
+    .servicios{
+       
+        h2{
+            font-size: 30px;
+          
+            } 
+            div{
+                    .semillas{ 
+                           height: 450px;
+                           width: 250px;
+                           
+    
+                            h3{ font-size: 20px;
+                                
+                                                            
+                                }
+                            h4{font-size: 15px;
+                                
+                                }
+                                h5{
+                                    
+                                    font-size: 15px;
+                                }
+    
+                            }
+                            img{ width: 150px;
+                                height: 100px;}
+                         
+                    
+                
+                .poolGanadero{
+                    height: 450px;
+                    width: 250px;
+                    
+                          h3{  font-size: 20px;
+                         
+                         
+                         }
+                     h4{font-size: 15px;
+                        
+    
+                     }
+                     img{ width: 200px;
+                         height: 100px;}
+                    
+                    }
+                
+            
+            .asesoramiento{
+              
+                height: 450px;
+                width: 250px;
+                        
+    
+                 
+                 h4{font-size: 15px;
+                     
+                     }
+    
+                 
+                 img{ width:150px;
+                     height: 100px;}
+                 a{
+                     font-size: 15px;
+                   }
+           
+      
+                }
+            }
+    }
+    }
+    
+    
+

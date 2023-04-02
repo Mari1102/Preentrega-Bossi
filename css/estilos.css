@@ -1,0 +1,609 @@
+@import url("https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Laila&family=Roboto+Condensed:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #045c1f;
+  font-family: 'Caudex', serif; }
+  header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    header nav a img {
+      height: 180px;
+      width: 180px; }
+    header nav ul {
+      display: flex; }
+      header nav ul li {
+        list-style-type: none; }
+        header nav ul li a {
+          color: antiquewhite;
+          text-decoration: none;
+          padding: 35px;
+          margin: 35px; }
+          header nav ul li a:hover {
+            color: #7d8a0e; }
+
+.hero {
+  background-image: linear-gradient(rgba(209, 155, 84, 0.5), rgba(102, 77, 31, 0.5)), url(../imagenes/campo6.jpg);
+  background-attachment: fixed;
+  height: 250px;
+  background-size: cover;
+  background-position: 0cqmax;
+  height: 500px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .hero h1 {
+    font-family: 'Caudex', serif;
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+    padding: 10px; }
+  .hero div h2 {
+    font-family: 'Caudex', serif;
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 25px; }
+  .hero div a {
+    background-color: #006400;
+    border: solid;
+    border-radius: 80px 20px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px; }
+    .hero div a:hover {
+      color: #006400;
+      background-color: antiquewhite; }
+
+.presentacion div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px; }
+  .presentacion div img {
+    height: 350px;
+    width: 350px;
+    background-color: #006400;
+    border-radius: 300px;
+    margin-left: 25px; }
+  .presentacion div p {
+    font-family: 'Caudex', serif;
+    color: #006400;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px; }
+
+.servicios {
+  margin: 0;
+  background-image: url(../imagenes/textura1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px; }
+  .servicios h2 {
+    padding: 25px;
+    color: #006400;
+    text-align: center;
+    font-family: 'Caudex', serif;
+    font-size: 35px; }
+  .servicios div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .servicios div .semillas {
+      border-radius: 20px;
+      border: solid #006400;
+      height: 700px;
+      width: 400px;
+      margin: 25px;
+      padding: 25px;
+      background-color: #006400;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+      .servicios div .semillas h3 {
+        font-size: 30px;
+        color: antiquewhite;
+        font-family: 'Caudex', serif;
+        text-align: center; }
+      .servicios div .semillas h4 {
+        font-size: 25px;
+        color: antiquewhite;
+        font-family: 'Caudex', serif;
+        text-align: center; }
+      .servicios div .semillas h5 {
+        color: darkgoldenrod;
+        font-family: 'Caudex', serif;
+        font-size: 20px; }
+    .servicios div img {
+      width: 250px;
+      height: 150px; }
+    .servicios div a {
+      background-color: antiquewhite;
+      border: solid;
+      border-radius: 80px 20px;
+      text-align: center;
+      color: #006400;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 10px; }
+      .servicios div a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+    .servicios div .poolGanadero {
+      border-radius: 20px;
+      border: solid #006400;
+      height: 700px;
+      width: 400px;
+      margin: 25px;
+      padding: 25px;
+      background-color: #006400;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+      .servicios div .poolGanadero h3 {
+        font-size: 30px;
+        color: antiquewhite;
+        font-family: 'Caudex', serif;
+        text-align: center; }
+      .servicios div .poolGanadero h4 {
+        font-size: 20px;
+        color: antiquewhite;
+        font-family: 'Caudex', serif;
+        text-align: center; }
+    .servicios div img {
+      width: 250px;
+      height: 150px; }
+    .servicios div a {
+      background-color: antiquewhite;
+      border: solid;
+      border-radius: 80px 20px;
+      text-align: center;
+      color: #006400;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 10px; }
+      .servicios div a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+    .servicios div .asesoramiento {
+      border-radius: 20px;
+      border: solid #006400;
+      height: 700px;
+      width: 400px;
+      margin: 25px;
+      padding: 25px;
+      background-color: #006400;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 32px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+      .servicios div .asesoramiento h3 {
+        font-size: 30px;
+        color: antiquewhite;
+        font-family: 'Caudex', serif;
+        text-align: center; }
+      .servicios div .asesoramiento h4 {
+        font-size: 20px;
+        color: antiquewhite;
+        font-family: 'Caudex', serif;
+        text-align: center; }
+    .servicios div img {
+      width: 250px;
+      height: 150px; }
+    .servicios div a {
+      background-color: antiquewhite;
+      border: solid;
+      border-radius: 80px 20px;
+      text-align: center;
+      color: #006400;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 10px; }
+      .servicios div a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+
+.whatsapp {
+  position: fixed;
+  right: 50px;
+  bottom: 50px; }
+  .whatsapp img {
+    height: 50px;
+    width: 50px; }
+
+.descripcion div {
+  display: flex;
+  flex-direction: column; }
+  .descripcion div p {
+    align-items: center;
+    color: #045c1f;
+    font-size: 25px;
+    font-weight: bolder;
+    border: solid #006400;
+    border-radius: 60px;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 22px -15px 43px 12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 22px -15px 43px 12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 22px -15px 43px 12px rgba(0, 0, 0, 0.75);
+    font-family: 'Caudex', serif; }
+
+.semillero h1 {
+  font-family: 'Caudex', serif;
+  font-size: 45px;
+  text-align: center;
+  color: #006400;
+  padding: 25px;
+  border: solid #006400;
+  margin-top: 10px; }
+
+.semillero h2 {
+  font-family: 'Caudex', serif;
+  font-size: 35px;
+  text-align: center;
+  color: #006400;
+  padding: 25px; }
+
+.semillero div {
+  display: flex;
+  justify-content: space-evenly; }
+  .semillero div .digitaria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border: solid #006400;
+    background-image: linear-gradient(rgba(138, 223, 99, 0.5), rgba(95, 150, 71, 0.5)), url(../imagenes/digitaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .semillero div .digitaria h2 {
+      font-family: 'Caudex', serif;
+      font-size: 30px;
+      text-align: center;
+      color: #077929; }
+    .semillero div .digitaria p {
+      font-family: 'Caudex', serif;
+      font-size: 25px;
+      color: antiquewhite;
+      text-align: center;
+      padding: 15px;
+      margin: 15px; }
+    .semillero div .digitaria a {
+      font-family: 'Caudex', serif;
+      font-size: 15px;
+      background-color: antiquewhite;
+      border-radius: 60px 30px;
+      padding: 15px;
+      margin: 25px;
+      text-decoration: none;
+      color: #006400; }
+      .semillero div .digitaria a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+  .semillero div .pastoLloron {
+    width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border: solid #006400;
+    background-image: linear-gradient(rgba(127, 231, 79, 0.5), rgba(98, 168, 68, 0.5)), url(../imagenes/pastolloron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .semillero div .pastoLloron h2 {
+      font-family: 'Caudex', serif;
+      font-size: 30px;
+      text-align: center;
+      color: #077929; }
+    .semillero div .pastoLloron p {
+      font-family: 'Caudex', serif;
+      font-size: 25px;
+      color: antiquewhite;
+      text-align: center;
+      padding: 15px;
+      margin: 15px; }
+    .semillero div .pastoLloron a {
+      font-family: 'Caudex', serif;
+      font-size: 15px;
+      background-color: antiquewhite;
+      border-radius: 60px 30px;
+      padding: 15px;
+      margin: 25px;
+      text-decoration: none;
+      color: #006400; }
+      .semillero div .pastoLloron a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+  .semillero div .bufellGrass {
+    width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border: solid #006400;
+    background-image: linear-gradient(rgba(127, 231, 79, 0.5), rgba(98, 168, 68, 0.5)), url(../imagenes/buffelgrass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .semillero div .bufellGrass h2 {
+      font-family: 'Caudex', serif;
+      font-size: 30px;
+      text-align: center;
+      color: #077929; }
+    .semillero div .bufellGrass p {
+      font-family: 'Caudex', serif;
+      font-size: 25px;
+      color: antiquewhite;
+      text-align: center;
+      padding: 15px;
+      margin: 15px; }
+    .semillero div .bufellGrass a {
+      font-family: 'Caudex', serif;
+      font-size: 15px;
+      background-color: antiquewhite;
+      border-radius: 60px 30px;
+      padding: 15px;
+      margin: 25px;
+      text-decoration: none;
+      color: #006400; }
+      .semillero div .bufellGrass a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+  .semillero div .panicumColoratum {
+    width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border: solid #006400;
+    background-image: linear-gradient(rgba(127, 231, 79, 0.5), rgba(98, 168, 68, 0.5)), url(../imagenes/panicumcoloratum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; }
+    .semillero div .panicumColoratum h2 {
+      font-family: 'Caudex', serif;
+      font-size: 30px;
+      text-align: center;
+      color: #077929; }
+    .semillero div .panicumColoratum p {
+      font-family: 'Caudex', serif;
+      font-size: 25px;
+      color: antiquewhite;
+      text-align: center;
+      padding: 15px;
+      margin: 15px; }
+    .semillero div .panicumColoratum a {
+      font-family: 'Caudex', serif;
+      font-size: 15px;
+      background-color: antiquewhite;
+      border-radius: 60px 30px;
+      padding: 15px;
+      margin: 25px;
+      text-decoration: none;
+      color: #006400; }
+      .semillero div .panicumColoratum a:hover {
+        color: antiquewhite;
+        background-color: #006400; }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(52, 114, 73, 0.5), rgba(78, 194, 78, 0.9)); }
+  footer ul {
+    padding: 25px; }
+    footer ul li {
+      text-decoration: none;
+      list-style-type: none;
+      color: #006400;
+      font-family: 'Caudex', serif; }
+      footer ul li h2 {
+        font-size: 15px;
+        font-weight: bolder; }
+      footer ul li img {
+        height: 180px;
+        width: 180px; }
+  footer iframe {
+    margin: 25px; }
+
+@media screen and (max-width: 1000px) {
+  .presentacion div {
+    display: flex;
+    flex-direction: column;
+    height: 1000px; }
+  .servicios {
+    height: 2500px; }
+  div {
+    flex-direction: column; }
+  .semillero div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .semillero div .digitaria {
+      display: flex;
+      width: 80%;
+      height: 600px; }
+    .semillero div .pastoLloron {
+      width: 80%;
+      height: 600px; }
+    .semillero div .bufellGrass {
+      width: 80%;
+      height: 600px; }
+    .semillero div .panicumColoratum {
+      width: 80%;
+      height: 600px; } }
+
+@media screen and (max-width: 600px) {
+  .presentacion div {
+    height: 680px; }
+    .presentacion div img {
+      height: 250px;
+      width: 250px;
+      margin-top: 25px; }
+    .presentacion div p {
+      font-size: 25px;
+      margin-top: 25px; }
+  .servicios {
+    height: 1800px; }
+    .servicios h2 {
+      font-size: 30px; }
+    .servicios div .semillas {
+      height: 500px;
+      width: 300px; }
+      .servicios div .semillas h3 {
+        font-size: 25px; }
+      .servicios div .semillas h4 {
+        font-size: 20px; }
+      .servicios div .semillas h5 {
+        font-size: 15px; }
+    .servicios div img {
+      width: 200px;
+      height: 100px; }
+    .servicios div a {
+      font-size: 15px; }
+    .servicios div .poolGanadero {
+      height: 500px;
+      width: 300px; }
+      .servicios div .poolGanadero h3 {
+        font-size: 25px; }
+      .servicios div .poolGanadero h4 {
+        font-size: 20px; }
+      .servicios div .poolGanadero img {
+        width: 200px;
+        height: 100px; }
+      .servicios div .poolGanadero a {
+        font-size: 15px; }
+    .servicios div .asesoramiento {
+      height: 500px;
+      width: 300px; }
+      .servicios div .asesoramiento h3 {
+        font-size: 20px; }
+      .servicios div .asesoramiento h4 {
+        font-size: 20px; }
+      .servicios div .asesoramiento img {
+        width: 200px;
+        height: 100px; }
+      .servicios div .asesoramiento a {
+        font-size: 15px; } }
+
+@media screen and (max-width: 550px) {
+  .semillero h1 {
+    font-size: 35px; }
+  .semillero h2 {
+    font-size: 30px; }
+  .semillero div .digitaria p {
+    padding: 10px; }
+  .semillero div .digitaria a {
+    padding: 10px; }
+  .pastoLloron p {
+    padding: 15px; }
+  .pastoLloron a {
+    padding: 15px; } }
+
+@media screen and (max-width: 520px) {
+  .hero h1 {
+    font-size: 20px; }
+  .hero div h2 {
+    font-size: 15px; }
+  .hero div a {
+    font-size: 15px; }
+  .presentacion div img {
+    height: 200px;
+    width: 200px; }
+  .servicios h2 {
+    font-size: 25px; }
+  footer {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 500px) {
+  .semillero div .digitaria {
+    height: 1000px; }
+  .semillero div .pastoLloron {
+    height: 1000px; }
+  .semillero div .bufellGrass {
+    height: 1000px; }
+  .semillero div .panicumColoratum {
+    height: 1000px; } }
+
+@media screen and (max-width: 460px) {
+  .presentacion {
+    margin-top: 50px; } }
+
+@media screen and (max-width: 400px) {
+  .presentacion {
+    padding: 25px; }
+  .servicios h2 {
+    font-size: 30px; }
+  .servicios div .semillas {
+    height: 450px;
+    width: 250px; }
+    .servicios div .semillas h3 {
+      font-size: 20px; }
+    .servicios div .semillas h4 {
+      font-size: 15px; }
+    .servicios div .semillas h5 {
+      font-size: 15px; }
+  .servicios div img {
+    width: 150px;
+    height: 100px; }
+  .servicios div .poolGanadero {
+    height: 450px;
+    width: 250px; }
+    .servicios div .poolGanadero h3 {
+      font-size: 20px; }
+    .servicios div .poolGanadero h4 {
+      font-size: 15px; }
+    .servicios div .poolGanadero img {
+      width: 200px;
+      height: 100px; }
+  .servicios div .asesoramiento {
+    height: 450px;
+    width: 250px; }
+    .servicios div .asesoramiento h4 {
+      font-size: 15px; }
+    .servicios div .asesoramiento img {
+      width: 150px;
+      height: 100px; }
+    .servicios div .asesoramiento a {
+      font-size: 15px; } }

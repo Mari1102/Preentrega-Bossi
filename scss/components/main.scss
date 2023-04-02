@@ -1,0 +1,473 @@
+
+.hero{ background-image:linear-gradient(rgba(209, 155, 84, 0.5), rgba(102, 77, 31, 0.5)),url(../imagenes/campo6.jpg);
+    
+    background-attachment: fixed;
+    height: 250px;
+    background-size: cover;
+    background-position:0cqmax;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+
+  
+   
+    h1{   font-family: 'Caudex', serif; 
+        color:antiquewhite;
+       
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+        margin: 0;
+    padding: 10px;
+    
+        
+  }
+  div{
+  
+  
+    h2{
+        font-family: 'Caudex', serif;     
+        color:antiquewhite;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+        padding: 25px;
+        
+    }
+    a{ background-color: #006400;
+        border:solid;
+        border-radius: 80px 20px;
+        text-align: center;
+        color:antiquewhite;
+        font-size: 20px;
+        text-decoration: none;
+        padding:10px;
+        &:hover{color: #006400;
+            background-color:antiquewhite;
+        }
+    }
+   }
+}
+.presentacion{ 
+    div{display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+       
+        
+
+        
+        
+        img{ height: 350px;
+            width: 350px;
+            background-color: #006400;
+            border-radius:300px;
+            margin-left: 25px;
+            }
+        p{
+        font-family: 'Caudex', serif; 
+        color: #006400;
+        font-size: 35px;
+        text-align: center;
+        padding: 50px;
+        }
+        
+    }
+
+}
+
+
+.servicios{margin: 0;
+    background-image: url(../imagenes/textura1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    h2{padding: 25px;
+        color: #006400; 
+        text-align: center;
+        font-family: 'Caudex', serif;
+        font-size: 35px;
+      
+        } 
+        div{display: flex;
+            align-items: center;
+            justify-content: space-around;
+                .semillas{ border-radius: 20px;
+                       border:solid #006400;
+                       height: 700px;
+                       width: 400px;
+                       margin: 25px;
+                       padding:25px;
+                       background-color: #006400;
+                       display: flex;
+                       align-items: center;
+                       justify-content: space-between;
+                       flex-direction: column;
+                       box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+
+                        h3{ font-size: 30px;
+                            color:antiquewhite; 
+                            font-family: 'Caudex', serif;
+                            text-align: center;
+                                                        
+                            }
+                        h4{font-size: 25px;
+                            color:antiquewhite; 
+                            font-family: 'Caudex', serif;
+                            text-align: center;
+                            }
+                            h5{
+                                color: darkgoldenrod;
+                                font-family:'Caudex', serif;
+                                font-size: 20px;
+                            }
+
+                        }
+                        img{ width: 250px;
+                            height: 150px;}
+                        a{background-color:antiquewhite;
+                            border:solid;
+                            border-radius: 80px 20px;
+                            text-align: center;
+                            color:#006400;
+                            font-size: 20px;
+                            text-decoration: none;
+                            padding:10px;
+                            &:hover{color:antiquewhite;
+                                background-color:#006400;
+                                }
+                    }
+            .poolGanadero{border-radius: 20px;
+                border:solid #006400;
+                height: 700px;
+                width: 400px;
+                margin: 25px;
+                padding:25px;
+                background-color: #006400;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+
+                 h3{  font-size: 30px;
+                     color:antiquewhite; 
+                     font-family: 'Caudex', serif;
+                     text-align: center;
+                     
+                     }
+                 h4{font-size: 20px;
+                     color:antiquewhite; 
+                     font-family: 'Caudex', serif;
+                     text-align: center;
+                     }
+
+                 }
+                 img{ width: 250px;
+                     height: 150px;}
+                 a{background-color:antiquewhite;
+                     border:solid;
+                     border-radius: 80px 20px;
+                     text-align: center;
+                     color:#006400;
+                     font-size: 20px;
+                     text-decoration: none;
+                     padding:10px;
+                     &:hover{color:antiquewhite;
+                         background-color:#006400;
+                         }
+                
+
+                            }
+            .asesoramiento{
+                border-radius: 20px;
+                border:solid #006400;
+                height: 700px;
+                width: 400px;
+                margin: 25px;
+                padding:25px;
+                background-color: #006400;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: column;
+                box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 10px 5px 0px rgba(0,0,0,0.75);
+
+                 h3{  font-size: 30px;
+                     color:antiquewhite; 
+                     font-family: 'Caudex', serif;
+                     text-align: center;
+                     
+                     }
+                 h4{font-size: 20px;
+                     color:antiquewhite; 
+                     font-family: 'Caudex', serif;
+                     text-align: center;
+                     }
+
+                 }
+                 img{ width: 250px;
+                     height: 150px;}
+                 a{background-color:antiquewhite;
+                     border:solid;
+                     border-radius: 80px 20px;
+                     text-align: center;
+                     color:#006400;
+                     font-size: 20px;
+                     text-decoration: none;
+                     padding:10px;
+                     &:hover{color:antiquewhite;
+                         background-color:#006400;
+                         }
+
+            }
+        }
+
+}
+.whatsapp{
+     position: fixed;
+    right: 50px;
+    bottom: 50px;
+    img{   height: 50px;
+        width: 50px;
+
+    }
+}
+
+
+
+
+.descripcion{
+    div{display: flex;
+    flex-direction: column;
+    p{align-items: center;
+    color: rgb(4, 92, 31);
+    font-size: 25px;
+    font-weight: bolder;
+    border:solid #006400;
+    border-radius: 60px;
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 22px -15px 43px 12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 22px -15px 43px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 22px -15px 43px 12px rgba(0,0,0,0.75);
+    font-family: 'Caudex', serif;}
+    }
+      
+}
+
+.semillero{
+    
+h1{
+    font-family:'Caudex', serif; 
+    font-size: 45px; 
+    text-align: center;
+    color: #006400;
+    padding: 25px;
+    border:solid #006400;
+    margin-top: 10px;
+
+
+}
+h2{font-family:'Caudex', serif; 
+    font-size: 35px;
+    text-align: center;
+    color: #006400;
+    padding: 25px;
+}
+div{ display: flex;
+    justify-content: space-evenly;
+    .digitaria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-evenly;
+    width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border:solid #006400;
+    background-image:linear-gradient(rgba(138, 223, 99, 0.5), rgba(95, 150, 71, 0.5)), url(../imagenes/digitaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    h2{
+        font-family: 'Caudex', serif;
+        font-size: 30px;
+        text-align: center;
+        color:rgb(7, 121, 41);
+        
+    }
+    
+    
+    p{font-family: 'Caudex', serif;
+        font-size: 25px;
+        color:antiquewhite;
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+
+    }
+    
+        a{font-family: 'Caudex', serif;
+        font-size: 15px;
+        background-color:antiquewhite;
+        border-radius: 60px 30px;
+        padding: 15px;
+        margin: 25px;
+        text-decoration: none;
+        color: #006400;
+        &:hover{color:antiquewhite;
+            background-color:#006400;}
+    
+        }
+    }
+   .pastoLloron{width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border:solid #006400;
+    background-image:linear-gradient(rgba(127, 231, 79, 0.5), rgba(98, 168, 68, 0.5)), url(../imagenes/pastolloron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    h2{
+        font-family: 'Caudex', serif;
+        font-size: 30px;
+        text-align: center;
+        color: rgb(7, 121, 41);
+
+    }
+    
+    
+    p{font-family: 'Caudex', serif;
+        font-size: 25px;
+        color:antiquewhite;
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+
+    }
+
+       a{font-family: 'Caudex', serif;
+        font-size: 15px;
+        background-color:antiquewhite;
+        border-radius:60px 30px;
+        padding: 15px;
+        margin: 25px;
+        text-decoration: none;
+        color: #006400;
+        &:hover{color:antiquewhite;
+            background-color:#006400;}
+       }
+    
+}
+ .bufellGrass{width: 20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+    border:solid #006400;
+    background-image:linear-gradient(rgba(127, 231, 79, 0.5), rgba(98, 168, 68, 0.5)), url(../imagenes/buffelgrass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    h2{
+        font-family: 'Caudex', serif;
+        font-size: 30px;
+        text-align: center;
+        color:rgb(7, 121, 41);
+
+    }
+    
+    
+    p{font-family: 'Caudex', serif;
+        font-size: 25px;
+        color:antiquewhite;
+        text-align: center;
+        padding: 15px;
+        margin: 15px;
+
+    }
+  
+        a{font-family: 'Caudex', serif;
+        font-size: 15px;
+        background-color:antiquewhite;
+        border-radius: 60px 30px;
+        padding: 15px;
+        margin: 25px;
+        text-decoration: none;
+        color: #006400;
+        &:hover{color:antiquewhite;
+            background-color:#006400;}
+        }
+    }
+
+  .panicumColoratum
+    {width:20%;
+    height: 900px;
+    padding: 25px;
+    margin: 15px;
+border:solid #006400;
+background-image:linear-gradient(rgba(127, 231, 79, 0.5), rgba(98, 168, 68, 0.5)), url(../imagenes/panicumcoloratum.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:space-evenly;
+
+h2{
+    font-family: 'Caudex', serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(7, 121, 41);
+
+}
+
+
+p{font-family: 'Caudex', serif;
+    font-size: 25px;
+    color:antiquewhite;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+
+
+
+a{font-family: 'Caudex', serif;
+    font-size: 15px;
+    background-color:antiquewhite;
+    border-radius: 60px 30px;
+    padding: 15px;
+    margin: 25px;
+    text-decoration: none;
+    color: #006400;
+    &:hover{color:antiquewhite;
+        background-color:#006400;}
+   
+}
+
+}
+}
+
+
+}
