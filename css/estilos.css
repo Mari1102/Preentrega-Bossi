@@ -571,6 +571,9 @@ footer {
     margin-top: 50px; } }
 
 @media screen and (max-width: 400px) {
+  .hero {
+    background-image: linear-gradient(rgba(209, 155, 84, 0.5), rgba(102, 77, 31, 0.5)), url(../imagenes/campo6.jpg);
+    background-position: center; }
   .presentacion {
     padding: 25px; }
   .servicios h2 {
