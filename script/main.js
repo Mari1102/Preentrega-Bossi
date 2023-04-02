@@ -4,9 +4,9 @@ alert ("Bienvenidos INTEGRAL AGRO :Somos especialistas en produccion ganadera");
 
 
 
-
+/*condicional para saber que semilla elige el usuario*/
 let semilla = prompt ("Que semillas te gustaria comprar? digitaria,pasto lloron,bufell grass o panicum coloratum");
-if (semilla === "digitaria") {
+if (semilla==="digitaria") {
         
   console.log("La digitaria cuesta 8 USD por kilo");
 } else if (semilla === "pasto lloron") {
@@ -21,10 +21,11 @@ if (semilla === "digitaria") {
 
 let compra =prompt ("¿cuantos kilos deseas comprar? conoce descuentos comprando mas de 300 kgs");
 
-console.log (" quieres comprar " + compra);
+console.log (" La cantidad de kilos solicitada es  " + compra);
 
+/*Condicinal para realizar el calculo total segun cantidad de kilos ingresados por el usuario*/
 let resultado
-if (semilla === "digitaria") {
+if (semilla=== "digitaria") {
         resultado=(compra*8)
   console.log("El total de la compra es " +resultado,"USD");
 } else if (semilla === "pasto lloron") {
@@ -46,11 +47,7 @@ if (semilla === "digitaria") {
 
 alert ("Conoce nuestros descuentos por compras mayores a 500 kgs");
 
-/*function descuento(compra) {
-  if (compra < 500)
-  return 0
-  console.log ("compras menores a 500kgrs no tienen descuento");
-};*/
+/* Bucle para conocer descuentos segun cantidad de kilos comorados*/
 kilos=400;
 descuento=0
 while (kilos<=900&&kilos>=400) {
