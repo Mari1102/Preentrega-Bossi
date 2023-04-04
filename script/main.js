@@ -19,7 +19,7 @@ if (semilla==="digitaria") {
   console.log("No tenemos disponibilidad de esa semilla por el momento.");
 };
 
-let compra =prompt ("¿cuantos kilos deseas comprar? conoce descuentos comprando mas de 300 kgs");
+let compra =prompt ("¿cuantos kilos deseas comprar? conoce descuentos comprando mas de 500 kgs");
 
 console.log (" La cantidad de kilos solicitada es  " + compra);
 
