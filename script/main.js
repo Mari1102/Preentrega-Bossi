@@ -122,7 +122,7 @@ variedad= prompt("¿Que semillas te gustaria comprar? digitaria,pasto lloron,buf
 
 cantidad=prompt ("¿cuantos kilos quieres comprar?");
 const semillauno = new semilla (variedad,parseFloat(cantidad));
-miCompra.push(semillauno)
+miCompra.push(semillauno);
 
 
 
@@ -154,7 +154,7 @@ if (variedad == vectorDeSemillas[0]) {
  
  };
 
- miCompra.push(valor);
+ 
  
 respuesta = prompt("¿Desea otra semilla'? si/no");
 console.log (respuesta);
